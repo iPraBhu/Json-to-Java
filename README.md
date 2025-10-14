@@ -14,7 +14,6 @@
 
 ---
 
-![json-to-pojo preview](public/social-preview.svg)
 
 ## ✨ Highlights
 - **Zero server** – everything runs locally in the browser.
