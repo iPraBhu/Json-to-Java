@@ -3,7 +3,6 @@
 
 [![CI](https://github.com/your-org/json-to-pojo/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/json-to-pojo/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/your-org/json-to-pojo/actions/workflows/codeql.yml/badge.svg)](https://github.com/your-org/json-to-pojo/actions/workflows/codeql.yml)
-[![Deploy](https://github.com/your-org/json-to-pojo/actions/workflows/deploy.yml/badge.svg)](https://github.com/your-org/json-to-pojo/actions/workflows/deploy.yml)
 [![Coverage](https://img.shields.io/badge/coverage-68%25-yellow.svg)](#-testing)
 [![Bundle Size](https://img.shields.io/badge/bundle-0.60_MB-blue.svg)](#-architecture-overview)
 [![Website](https://img.shields.io/badge/live-json2java.adevguide.com-0f172a.svg?logo=googlechrome&logoColor=white)](https://json2java.adevguide.com/)
@@ -50,7 +49,6 @@ Visit `http://localhost:5173` to use the app.
 | `npm run typecheck` | Run TypeScript without emit |
 | `npm run test` | Vitest + RTL with coverage |
 | `npm run audit` | npm security audit |
-| `npm run deploy` | Build + publish to GitHub Pages |
 
 ## 🧠 Architecture Overview
 
@@ -81,19 +79,17 @@ Key libraries:
 ## 📦 Continuous Delivery
 - **CI**: lint → typecheck → tests → build → audit (GitHub Actions).
 - **CodeQL**: weekly static analysis scan.
-- **Deploy**: GitHub Pages workflow builds from `main`.
 - **Dependabot**: weekly dependency updates for npm modules and GitHub Actions.
 
-## ☁️ Deploying Elsewhere
+## ☁️ Deploying
 
-### GitHub Pages
-Set `GITHUB_PAGES=true` for the build, then either run `npm run deploy` locally or rely on `.github/workflows/deploy.yml`. The app is a static bundle in `dist/`.
-
-### Cloudflare Pages
-1. Push this repo to GitHub.
+### Cloudflare Pages (Recommended)
+1. Push this repo to your Git hosting provider.
 2. In Cloudflare Pages: **Create project → Connect to Git → select repo**.
 3. Build command: `npm run build` · Output directory: `dist`.
-4. Deploy. Optional: add custom domain and enable previews.
+4. Deploy. Optionally add your custom domain and enable preview deployments.
+
+Because the site is fully static, any CDN or static host that supports a build step can serve it. Just run `npm run build` and upload the contents of `dist/`.
 
 ## 🤝 Contributing
 We enthusiastically welcome contributions! Please read:

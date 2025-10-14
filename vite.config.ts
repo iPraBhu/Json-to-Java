@@ -1,12 +1,10 @@
 import { defineConfig, splitVendorChunkPlugin } from 'vite';
 import react from '@vitejs/plugin-react';
 
-const repoName = 'json-to-pojo';
-
 export default defineConfig(({ mode }) => {
   const isCI = process.env.CI === 'true';
   return {
-    base: process.env.GITHUB_PAGES === 'true' || mode === 'gh-pages' ? `/${repoName}/` : '/',
+    base: '/',
     plugins: [react(), splitVendorChunkPlugin()],
     build: {
       sourcemap: true,
