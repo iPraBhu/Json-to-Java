@@ -1,5 +1,5 @@
 
-# json-to-pojo
+# Json2Java
 
 [![Coverage](https://img.shields.io/badge/coverage-68%25-yellow.svg)](#-testing)
 [![Bundle Size](https://img.shields.io/badge/bundle-0.60_MB-blue.svg)](#-architecture-overview)
