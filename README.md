@@ -1,8 +1,11 @@
 
 # json-to-pojo
 
+<<<<<<< HEAD
 [![CI](https://github.com/your-org/json-to-pojo/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/json-to-pojo/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/your-org/json-to-pojo/actions/workflows/codeql.yml/badge.svg)](https://github.com/your-org/json-to-pojo/actions/workflows/codeql.yml)
+=======
+>>>>>>> 8231c00246857faefb23ba5752e31242c31ded3b
 [![Coverage](https://img.shields.io/badge/coverage-68%25-yellow.svg)](#-testing)
 [![Bundle Size](https://img.shields.io/badge/bundle-0.60_MB-blue.svg)](#-architecture-overview)
 [![Website](https://img.shields.io/badge/live-json2java.adevguide.com-0f172a.svg?logo=googlechrome&logoColor=white)](https://json2java.adevguide.com/)
@@ -13,7 +16,6 @@
 
 ---
 
-![json-to-pojo preview](public/social-preview.svg)
 
 ## ✨ Highlights
 - **Zero server** – everything runs locally in the browser.
