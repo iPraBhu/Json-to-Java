@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 14% 96%;
+  --foreground: 221 39% 11%;
+  --muted: 220 9% 88%;
+  --muted-foreground: 221 10% 30%;
+  --accent: 199 89% 48%;
+  --accent-foreground: 210 40% 98%;
+  --border: 221 17% 88%;
+  --input: 221 17% 88%;
+  --ring: 199 89% 48%;
+  --primary: 222 47% 11%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 219 25% 20%;
+  --secondary-foreground: 210 40% 98%;
+  --card: 0 0% 100%;
+  --card-foreground: 221 39% 11%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 221 39% 11%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  --radius: 0.9rem;
+}
+
+.dark {
+  --background: 221 39% 11%;
+  --foreground: 210 40% 98%;
+  --muted: 223 47% 17%;
+  --muted-foreground: 220 20% 80%;
+  --accent: 199 89% 48%;
+  --accent-foreground: 221 39% 11%;
+  --border: 223 47% 17%;
+  --input: 223 47% 17%;
+  --ring: 199 89% 48%;
+  --primary: 199 89% 48%;
+  --primary-foreground: 221 39% 11%;
+  --secondary: 227 48% 19%;
+  --secondary-foreground: 210 40% 98%;
+  --card: 223 47% 17%;
+  --card-foreground: 210 40% 98%;
+  --popover: 223 47% 17%;
+  --popover-foreground: 210 40% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+::selection {
+  background-color: hsl(var(--accent));
+  color: hsl(var(--accent-foreground));
+}
+
+.scroll-area {
+  --radix-scroll-area-corner-width: 12px;
+  --radix-scroll-area-corner-height: 12px;
+}
