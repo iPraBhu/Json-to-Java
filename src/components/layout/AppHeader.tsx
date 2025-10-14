@@ -3,7 +3,7 @@ import { Button } from '../ui/button';
 import { useTheme } from '../../state/theme';
 import { cn } from '../../lib/utils';
 
-const REPO_URL = 'https://github.com/your-org/json-to-pojo';
+const REPO_URL = 'https://github.com/iPraBhu/Json2Java';
 
 interface AppHeaderProps {
   onGenerate: () => void;

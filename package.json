@@ -26,6 +26,10 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iPraBhu/Json2Java.git"
+  },
   "engines": {
     "node": ">=18.17.0",
     "npm": ">=9.6.0"
