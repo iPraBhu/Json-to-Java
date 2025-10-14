@@ -1,0 +1,21 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="48" fill="#0f172a"/>
+  <rect x="80" y="120" width="510" height="390" rx="32" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="635" y="150" width="230" height="36" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <rect x="635" y="210" width="430" height="270" rx="24" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="120" y="200" fill="#38bdf8" font-family="'JetBrains Mono', 'Fira Code', monospace" font-weight="600" font-size="28">{
+      "id": 123,
+      "name": "Acme",
+      "active": true
+}</text>
+  <text x="655" y="172" fill="#cbd5f5" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="600" font-size="24">Generated POJO</text>
+  <text x="660" y="250" fill="#cbd5f5" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="22">public class Company {</text>
+  <text x="680" y="290" fill="#94a3b8" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="20">private Integer id;</text>
+  <text x="680" y="325" fill="#94a3b8" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="20">private String name;</text>
+  <text x="680" y="360" fill="#94a3b8" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="20">private Boolean active;</text>
+  <text x="680" y="395" fill="#94a3b8" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="20">// ...</text>
+  <text x="680" y="430" fill="#cbd5f5" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="22">}</text>
+  <text x="80" y="90" fill="#38bdf8" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="700" font-size="42">json-to-pojo</text>
+  <text x="80" y="140" fill="#cbd5f5" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">JSON &amp; JSON Schema → Java classes, entirely offline.</text>
+  <text x="80" y="520" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Deploy: https://json2java.adevguide.com/</text>
+</svg>
