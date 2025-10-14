@@ -73,20 +73,7 @@ Key libraries:
 - No analytics, telemetry, or network calls required.
 - See [SECURITY.md](SECURITY.md) for disclosure guidance.
 
-## 📦 Continuous Delivery
-- **CI**: lint → typecheck → tests → build → audit (GitHub Actions).
-- **CodeQL**: weekly static analysis scan.
-- **Dependabot**: weekly dependency updates for npm modules and GitHub Actions.
 
-## ☁️ Deploying
-
-### Cloudflare Pages (Recommended)
-1. Push this repo to your Git hosting provider.
-2. In Cloudflare Pages: **Create project → Connect to Git → select repo**.
-3. Build command: `npm run build` · Output directory: `dist`.
-4. Deploy. Optionally add your custom domain and enable preview deployments.
-
-Because the site is fully static, any CDN or static host that supports a build step can serve it. Just run `npm run build` and upload the contents of `dist/`.
 
 ## 🤝 Contributing
 We enthusiastically welcome contributions! Please read:
